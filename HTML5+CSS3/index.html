@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>Sección 1</li>
+                <li>Sección 2</li>
+                <li>Sección 3</li>
+                <li>Sección 4</li>
+                <li>Sección 5</li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <hgroup>
+            <h1>HTML Página principal</h1>
+            <h2>Sección de artículos</h2>
+        </hgroup>
+        <article>
+            <h3>Mi primer trabajo HTML5</h3>
+            <p>Este es mi primer trabajo del bootcamp FrontEnd Developer de Geekshubs Academy y esta escrito en HTML5. Estoy muy contento porque estoy aprendiendo mucho y de una forma muy rápida y dinámica.</p>
+            <iframe src="https://bootcamp.geekshubsacademy.com/online/frontend-angular/" frameborder="0">Previsualización de la página</iframe>
+        </article>
+        <article>
+            <h3>Formulario de registro</h3>
+            <form action="/signup" method="post">
+                <fieldset>
+                    <legend>Nombre:</legend>
+                    <input type="text" name="fname" placeholder="Perico palotes">
+                </fieldset><br><br>
+                <fieldset>
+                    <legend>Email:</legend>
+                    <input type="email" id="email" name="email" placeholder="geekshubs@academy.com">
+                </fieldset><br><br>
+                <fieldset>
+                    <legend>Contraseña:</legend>
+                    <input type="password" name="password" id="fpassword">
+                </fieldset><br><br>
+                <textarea name="message" cols="50" rows="10" placeholder="Introduce aquí la descripcion"></textarea>
+                <p>Selecciona tu nivel:</p>
+                <input type="radio" id="junior" name="nivel" value="junior">
+                <label for="junior">Junior</label><br>
+                <input type="radio" id="semisenior" name="nivel" value="semisenior">
+                <label for="junior">Semisenior</label><br>
+                <input type="radio" id="senior" name="nivel" value="senior" disabled="disabled">
+                <label for="junior">Senior</label><br><br>
+                <meter min="0" low="1" value="5" high="9" max="10">Grado de satisfacción</meter><br><br>
+                <button type="button">Enviar</button>
+            </form>
+        </article>
+    </section>
+
+    <aside>
+        <h3>Esta es la sección aside de nuestra página</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla hendrerit dolor in ligula porta consequat. Integer accumsan purus sed massa bibendum, sit amet ullamcorper libero tempor. Pellentesque vel imperdiet neque. Aliquam luctus elementum justo, eu tincidunt nulla interdum ut. Mauris at volutpat nulla. Mauris eu condimentum massa. Morbi nec elementum lorem, et auctor neque. Nunc turpis metus, blandit sit amet nulla a, sodales suscipit lacus.
+
+        Phasellus luctus velit non velit sollicitudin iaculis. Donec convallis gravida posuere. Donec tempor eros quis metus facilisis vulputate. Praesent at ante nec lorem dictum sodales. Sed faucibus interdum nibh, vel faucibus lectus ultrices et. Nam malesuada sit amet nibh eget mollis. Aenean suscipit fermentum ante, eu pulvinar mauris luctus nec. Aliquam sit amet sem sodales, ultricies enim ac, tempus felis. Curabitur tempus accumsan lacus. In sed nibh interdum, condimentum mauris in, aliquet nulla.</p>
+    </aside>
+
+    <footer>
+        <p>Fin de la página web - Geekshubs Academy - FED Online</p>
+    </footer>
+
+    <script src="scripts/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+.div1{
+    background-color: brown !important;
+    height: 10px;
+    width: 20px;
+}
+
+.div0{
+    background-color: grey;
+    height: 20px;
+    width: 40px;
+}
+
+.div2{
+    background-color: green !important;
+    height: 100px;
+    width: 400px !important;
+}
+
+#divDos{
+    background-color: yellow !important;
+    height: 20px;
+    width: 40px;;
+}
+
+body :not(#divDos){
+    background-color: aqua;
+    color: darkcyan;
+    height: 10em;
+    width: 35em;
+}

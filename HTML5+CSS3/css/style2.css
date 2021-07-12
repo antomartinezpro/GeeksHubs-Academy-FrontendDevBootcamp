@@ -1,0 +1,18 @@
+a:hover{
+    color:darkred;
+    font-size: 20px;
+}
+
+article > h2{
+    color:grey;
+}
+
+input:hover{
+    background: greenyellow;
+}
+
+#divReto{
+    background: blue;
+    border-radius: 1em;
+    padding: 2em;
+}
