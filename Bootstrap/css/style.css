@@ -1,0 +1,24 @@
+.col{
+    margin: 0.75em;
+    padding:0.5em;
+    border: 0.1em solid;
+    border-radius: 0.3em;
+}
+
+.col1{
+    color: rgb(98, 153, 255);
+    background-color:rgb(173, 229, 233);
+    border-color: rgb(98, 153, 255);
+}
+
+.col2{
+    color: rgb(204, 127, 255);
+    background-color:rgb(224, 177, 238);
+    border-color: rgb(204, 127, 255);
+}
+
+.col3{
+    color:rgb(248, 87, 87);
+    background-color:rgb(236, 178, 183);
+    border-color: rgb(248, 87, 87);
+}

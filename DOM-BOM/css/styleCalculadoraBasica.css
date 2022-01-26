@@ -1,0 +1,18 @@
+#title{
+    min-height: 7em;
+    background-color: lightgray;
+    text-align: center;
+}
+
+#pantalla{
+    color:white;
+    background-color: black;
+    min-height: 5em;
+}
+
+.btnCalc{
+    color:white;
+    background-color: cornflowerblue;
+    min-width: 6em;
+    min-height: 6em;
+}

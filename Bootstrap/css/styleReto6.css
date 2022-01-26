@@ -1,0 +1,17 @@
+.divCol{
+    margin: 1em;
+    min-height: 5em;
+    border:0.1em solid black;
+}
+
+.green{
+    background-color: forestgreen;
+}
+
+.red{
+    background-color: red;
+}
+
+.blue{
+    background-color: blue;
+}
