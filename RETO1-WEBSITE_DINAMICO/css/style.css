@@ -1,0 +1,75 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+body{
+    font: 15px/1.5 Arial, Helvetica, sans-serif;
+    background-color:mintcream;
+}
+
+/* GLOBAL */
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+/* HEADER */
+header{
+    background-color:cornflowerblue;
+    color:white;
+    min-height: 50px;
+    border-bottom:3px solid royalblue;
+}
+
+header #branding{
+    margin-right: auto;
+}
+
+header .container{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px;
+}
+
+header #nav_links{
+    list-style: none;
+}
+
+header #nav_links li{
+    display: inline-block;
+    padding: 0px 20px;
+    transition: all 0.3s ease 0s;
+}
+
+header #nav_links li:hover{
+    color:mintcream;
+}
+
+header button{
+    padding: 9px 25px;
+    background-color: white;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+header button:hover{
+    background-color:mintcream;
+}
+
+
+/* SHOWCASE */
+#showcase{
+    min-height: 50em;
+}
+
+#showcase button{
+    background-color:cornflowerblue;
+    color:white;
+    min-height: 3em;
+    min-width: 7em;
+}
